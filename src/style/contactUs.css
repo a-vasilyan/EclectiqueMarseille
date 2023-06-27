@@ -1,0 +1,59 @@
+.div-contact-form{
+    max-width: 600px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.contact-close{
+    width: 100%;
+    position: relative;
+}
+.contact-close .icon-close {
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+    left: 94%;
+    border: 2px solid #E5AC00;
+    padding: 3px;
+}
+.contact-close h2{
+    color: #E5AC00;
+    font-family: 'Play', sans-serif;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contact-form p, .contact-form button {
+    align-self: flex-end;
+}
+.contact-form input{
+    height: 55px;
+    border: none;
+    border-bottom: 1px solid rgb(65, 63, 63);
+}
+.contact-form input::placeholder{
+    font-size: 20px;
+    width: 100%;
+    font-weight: lighter;
+}
+
+.contact-form .input-message::placeholder {
+    font-size: 16px;
+}
+.contact-form p, .contact-form i, .contact-form span{
+    font-weight: lighter;
+    color:rgb(99, 99, 99);   
+}
+.contact-form span{
+    margin-bottom: 20px;
+}
+.contact-form .text-message{
+    border: none;
+}
+.text{
+    margin-top: 30px;
+    color: gray;
+}

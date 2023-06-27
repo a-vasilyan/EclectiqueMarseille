@@ -1,0 +1,21 @@
+.contactModal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    background: rgba(196, 194, 194,0.6);
+}
+
+.modalContent{
+    margin-top: 90px;
+    background: white;
+}
+
+.contactModal.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
