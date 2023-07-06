@@ -1,21 +1,25 @@
 .div-contact-form{
     max-width: 600px;
-    height: 550px;
+    max-height: 550px;
     display: flex;
     flex-direction: column;
     padding: 10px;
+    /* overflow-x: auto !important; */
 }
 .contact-close{
-    width: 100%;
     position: relative;
+    margin-bottom: 30px;
 }
 .contact-close .icon-close {
     border-radius: 10px;
     position: absolute;
     top: 0px;
-    left: 94%;
+    left: 93%;
     border: 2px solid #E5AC00;
     padding: 3px;
+}
+.contact-scroll{
+    overflow: auto !important;
 }
 .contact-close h2{
     color: #E5AC00;
@@ -28,6 +32,9 @@
 }
 .contact-form p, .contact-form button {
     align-self: flex-end;
+}
+.contact-form i, .contact-form button {
+    margin-top: 25px;
 }
 .contact-form input{
     height: 55px;

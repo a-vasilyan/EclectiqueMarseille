@@ -4,16 +4,18 @@
     box-sizing: border-box;
 }
 .about-modal{
-    max-width: 590px;
+    max-width: 600px;
     height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1em;
+    padding: 20px;
+    overflow: auto !important;
 }
 .aboute-close{
     position: relative;
 }
+
 .aboute-close h2{
     color: #E5AC00;
     font-family: 'Play', sans-serif;
@@ -45,11 +47,9 @@
     justify-content: center;
     align-items: center;
 }
-
 .about-feedback button{
     align-self: flex-end;
 }
-
 .about-feedback input::placeholder {
     color: rgba(128, 128, 128, 0.8);
     font-size: 20px;

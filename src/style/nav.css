@@ -9,12 +9,12 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 1em;
     position: fixed;
     top: 0;
     box-shadow: 0 2px 10px  black;
     background-color: #F2EFE7;
     z-index: 2;
+    padding: 0 10px;
 }
 .navbar-logo {
     display: flex;
@@ -32,10 +32,9 @@
 .nav-link .nav-menu{
     display: flex;
     align-items: center;
-    padding-right: 20px;
+    padding-top: 10px;
 }
 .navbar-link{
-    /* border: 1px solid; */
     text-decoration: none;
     color: #E5AC00;
     margin-left: 40px;
@@ -52,5 +51,4 @@
 
 .navbar-link img{
     margin-right: 8px;
-    height: 20px;
 }

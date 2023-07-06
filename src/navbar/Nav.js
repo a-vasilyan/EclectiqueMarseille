@@ -1,8 +1,9 @@
 import "../style/nav.css";
+import "../style/media.css";
 import logo from "../image/logo.png";
-
 import { useTranslation } from "react-i18next";
-import "../style/media.css"
+import "../style/media.css";
+
 export default function Nav({setVisible}) {
     const {t} =useTranslation()
     return (
@@ -26,7 +27,6 @@ export default function Nav({setVisible}) {
                     </ul>
                 </div>
            </nav>
-      
     )
 }
 
